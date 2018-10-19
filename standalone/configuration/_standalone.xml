@@ -285,7 +285,7 @@
                 <security-domain name="AppLoginModule" cache-type="default">
                     <authentication>
                         <login-module code="de.sergejgerlach.security.sso.AppLoginModule" flag="required">
-                            <module-option name="test" value="true"/>
+                            <module-option name="test" value="_true"/>
                             <module-option name="testUser" value="sergej"/>
                             <module-option name="roles" value="SuperUser,Admin"/>
                         </login-module>
